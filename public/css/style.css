@@ -1,0 +1,195 @@
+@font-face {
+    font-family:Raleway ;
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+.container {
+    padding: 0 100px;
+}
+.btn {
+    color: #fff;
+    background-color: #16dada;
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #16dada;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100px;
+
+}
+.btn:hover {
+    background-color: #19b4b4;
+}
+.btn-delete {
+    color: #fff;
+    background-color: #ff0000;
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100px;
+}
+.btn-delete:hover {
+    background-color:  #961212;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    height: 80px;
+    margin-bottom: 10px;
+}
+#logo {
+    font-size: 28px;
+    color: #16dada;
+}
+.nav-links {
+    display:inline;
+    margin-left: 5px;
+    
+}
+.nav-links a {
+    text-decoration: none;
+    padding: 4px 6px;
+    color: #16dada;
+}
+.nav-links a:hover {
+    border-bottom: 2px solid #16dada;
+}
+#notes {
+    width: 70%;
+    margin: 0 auto;
+
+}
+.note {
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-size: 22px;
+    list-style: none;
+    border-bottom: 2px solid #e4e3e3;
+}
+.note a {
+    text-decoration: none;
+    color: #000;   
+}
+.view-title {
+    text-align: center;
+    color: #16dada;
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+form {
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form input[name='title'], form textarea[name='body'] {
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 22px;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+}
+.error-message {
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.form-text {
+    color: #16dada;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+#note {
+    background-color: #f2f2f2;
+    width: 80%;
+    padding: 15px 15px 20px;
+    margin: 0 auto;
+}
+#note-title {
+    color: #16dada;
+    margin-bottom: 8px;
+}
+#note-body {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+#delete-form {
+    text-align: center;
+
+}
+#delete-form {
+    display: inline;
+}
+#home, #page-not-found {
+    display: flex;
+    height: 75vh;
+    align-items: center;
+    
+}
+#home .col {
+    width: 50%;
+}
+#home h1 {
+    margin-bottom: 30px;
+}
+#home p {
+    margin-bottom: 30px;
+}
+#home .btn:hover {
+    background-color: #fff;
+    color: #16dada;
+}
+#home img {
+    width: 100%;
+}
+
+#page-not-found {
+    justify-content: center;  
+}
+#img-404 {
+    justify-content: center;
+    width: 70%;
+}
+.access-point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+.access-point form {
+    width: 45%;
+    padding: 20px;
+}
+.access-point .form-input {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #c7c6c6;
+    margin-bottom: 6px;
+    box-shadow: 2px 2px 2px #7a7878;
+}
+.access-point .btn {
+   align-self: center;
+}
+.access-point p {
+    margin-top: 10px;
+    text-align: center;
+}
+.access-point a {
+    text-decoration: none;
+    color: #16dada;
+}
